@@ -1,0 +1,7 @@
+- Condicionales
+- Funciones
+- Scope
+- Arrays
+- Loops
+- Iterators
+- Objects
