@@ -34,7 +34,7 @@ function htmlColorNames(arr) {
   console.log(copyMachine([true, false, true], 2));
 
   //"spread Operator"
-  
+
   function spreadOut() {
     let fragment = ['to', 'code'];
     let sentence = ['learning', ...fragment, 'is', 'fun'];
@@ -42,3 +42,21 @@ function htmlColorNames(arr) {
   }
   
   console.log(spreadOut());
+
+  //"indexOf" Si 'mushrooms' no se encuentra en el array devuelve -1
+
+  function quickCheck(arr, elem) {
+  
+    if(arr.indexOf(elem) != -1){
+      return true;
+    }else{
+      return false;
+    }
+  }
+  
+  console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+
+//Accesing "nested arrays"
+const filteredArray= [[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]];
+console.table(filteredArray);
+console.log(filteredArray[0][1]);
