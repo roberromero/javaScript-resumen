@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+
+}
+.recipiente{
+    display: flex;
+}
+
+.container{
+
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background: grey;
+    margin: 5px;
+}
+#boton1{
+    left: 100px;
+    width: 310px;
+    height: 67px;
+    background: #08A6E4;
+    box-shadow: 5px 10px 14px #21a0ce29;
+    border-radius: 40px;
+    color:#FFFFFF;
+    border: #08A6E4;
+    font-size: 35px;
+    margin-left: 350px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+#boton1:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+
+}
